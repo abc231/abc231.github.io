@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lets do it</title><link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+</head>
+<body>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ></div><div class="box">
+		<div class="content">
+			<h2>WEDNESDAY</h2>
+			<h3>9-10am</h3>
+			<p>MATHS LECTURE</p>
+			<a href="#">abc</a>
+		</div>
+	</div>
+	<div class="swiper-slide" ></div><div class="box">
+		<div class="content">
+			<h2>WEDNESDAY</h2>
+			<h3>11am-1pm</h3>
+			<p>PPS LAB</p>
+			<a href="#">abc</a>
+		</div>
+	</div>
+	<div class="swiper-slide" ></div><div class="box">
+		<div class="content">
+			<h2>WEDNESDAY</h2>
+			<h3>2-3pm</h3>
+			<p>WORK SHOP</p>
+			<a href="#">abc</a>
+		</div>
+	</div>
+	
+
+		</div>
+	</div>
+</div>
+
+
+      
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+
+</body>
+</html>

@@ -20,11 +20,11 @@ section
 section:before
 {
 	content: '';
-	position: relative;
+	position: obsolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	background: linear-gradient(to right,#f00,#f00,#0f0,#0ff,#ff0,#0ff);
 	mix-blend-mode: color;
 	pointer-events: none;

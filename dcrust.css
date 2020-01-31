@@ -5,8 +5,10 @@ body
 }
 video
 {
-  object-position: center;
+  position: relative;
   object-fit: cover;
+  width:100%;
+  height:auto;
 
 }
 section

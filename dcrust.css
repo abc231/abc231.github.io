@@ -24,7 +24,7 @@ section:before
 }
 video
 {
-  object-position: center;
+  object-position: relative;
   object-fit: cover;
 
 }

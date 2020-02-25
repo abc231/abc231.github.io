@@ -294,10 +294,10 @@ body {
 @media screen and (min-width: 1000px) {
   .main {
     width: 400px;
-    font-size: 100px;
+    font-size: 150px;
   }
 
   .main .socod {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
